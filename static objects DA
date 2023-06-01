@@ -6,7 +6,8 @@ int main()
     initgraph(&gd, &gm, "");
 
      setbkcolor(0);
-        cleardevice(); // Clear the screen before drawing each frame
+     // Clear the screen before drawing each frame
+        cleardevice(); 
 
         // Draw human
         setcolor(YELLOW);
